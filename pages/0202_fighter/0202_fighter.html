@@ -1,0 +1,136 @@
+<html>
+<head>
+<style>
+div.bab1 {
+	width:300px;
+	height:300px;
+	background-color:#ff003e;
+	border: 1px solid #01ff09;
+	animation-name: rot1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+div.bab1-1 {
+	width:300px;
+	height:300px;
+	background-color:#f9fe21;
+	border: 1px solid #9887ff;
+	animation: rot1 2s infinite; 
+}
+div.bab2 {
+	width:300px;
+	height:300px;
+	background-color:#eea5a2;
+	border: 1px solid #4436aa;
+	animation: rot2 4s infinite;
+}
+div.bab3 {
+	width:300px;
+	height:300px;
+	background-color:#eeaeea;
+	border: 1px solid #aeae69;
+	animation: rot3 4s infinite;
+}
+div.bab4 {
+
+}
+div.bab5 {
+
+}
+/*---------------------------------------*/
+@keyframes rot1 {
+	50%{background-color:#ee33aa;}
+}
+@keyframes rot2 {
+	25%{transform: rotate(90deg);}
+	50%{transform: rotate(180deg);}
+}
+@keyframes rot3 {
+	0%{transform: translate(0px, 40px);}
+	100%{transform: translate(0px, -40px);}
+}
+@keyframes rot4 {
+
+}
+@keyframes rot5 {
+
+}
+@keyframes rot6 {
+
+}
+
+/*-----------------------------------------*/
+
+</style>
+</head>
+<body>
+<table style="border: 1px solid black;">
+<tbody>
+<tr>
+<td>
+	<font size="13">Some of the animation thing ? <br></font>
+	<font size="5" style="margin-left:50px; word-spacing:3px;" color="#125f70"><i>The very very ~ </i><br></font>
+</td>
+<td style="padding-left:60px;"></td>
+<td style="border: 1px dotted black;" > 
+<iframe width="1220px" height="220px" src="html/FRIDAY-NIGHT.html" name="bannerTop" style="border: none;">
+	<img src="html/KiryuImage.jpg" alt="KIRYUUUUUUUUU" 
+	width="320px" height="155px"  
+	style="border-bottom: 2px solid #aa0e89; padding-bottom: 20px;" ><br>
+	<audio controls><source src="html/FridayNight.mp3" type="audio/mp3" width="320px" ></audio><br>-->
+</iframe>
+</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+<br>
+<table style="border:2px dashed #ceccec;" align="center">
+<tbody style="border:2px solid #ceccec; padding:40px;">
+<tr style="border:2px solid #ceccec;">
+	<th style="border:2px solid #c019a9; padding:40px;" colspan="2">
+	<font size="9">Cool and hopefully working<br></font>
+	</th>
+</tr>
+<tr style="border:2px solid #ceccec; padding:40px;">
+	<td style="border:2px solid #ceccec; padding:40px;">
+	<div class="bab1"></div><br>
+	<br>
+	animation seperate css;<br>
+	--> simple background-color change.<br>
+	</td>
+
+	<td style="border:2px solid #ceccec; padding:40px;">
+	<div class="bab1-1"></div><br>
+	<br>
+	animation TOGETHER css;<br>
+	--> simple background-color change.<br>
+	</td>
+</tr>
+<tr style="border:2px solid #ceccec; padding:40px;">
+	<td style="border:2px solid #ceccec; padding:40px;">
+	<div class="bab2"></div><br>
+	<br>
+	transform animation;<br>
+	--> double layer spin.<br>
+	== 25%(90) --> 50%(180)<br>
+	</td>
+
+	<td style="border:2px solid #ceccec; padding:40px;">
+	<div class="bab3"></div><br>
+	<br>
+	transform animation 2;<br>
+	--> translate with Y<br>
+	== 0%(40) --> 100%(-40)<br>
+	</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+<hr>
+<br>
+<br>
+</body>
+</html>

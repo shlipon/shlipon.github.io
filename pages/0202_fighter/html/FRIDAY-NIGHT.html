@@ -1,0 +1,22 @@
+<html>
+
+<body>
+<button>
+<div  onclick="playAudio()" type="button" style="background-image: url(KiryuImage-sized.jpg); width:1200px; height:200px;">
+<font onclick="playAudio()" type="button" size="60" color="#eeee00" align="center" style="text-shadow:3px 3px blue, 0px 0px 3px pink; ">
+CLICK TO ハジマルヨ フーライ・デ・ナイットゥ ！!11  ! ! !!1!!<br></font>
+<audio><source id="NIGHT" src="FridayNight8000.wav" type="audio/wav"></audio>
+</div>
+</button>
+<script>
+	let play = getElementById("NIGHT");
+function playAudio() {
+	/*var NIGHT() = getElementById("NIGHT");*/
+	/*NIGHT.play();*/
+		let audio = new Audio("FridayNight8000.wav");
+			audio.play()
+		}
+		play.addEventListener("CLICK", playAudio)
+</script>
+</body>
+</html>
